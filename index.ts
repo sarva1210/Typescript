@@ -34,3 +34,28 @@ if ((typeof a) === "string")
 // // Intersection types (& combines)
 // type AdminProduct = User & Product;
 
+
+
+// any — avoid unless migrating JS
+// let danger: any = "hello";
+
+// danger.toUpperCase(); // no error — but what if it was a number?
+// danger.nonExistentMethod(); // still no error, scary
+
+// // unknown — safe alternative
+// let safe: unknown = "hello";
+
+// // safe.toUpperCase(); // ERROR! must check type first
+
+// if (typeof safe === "string") {
+//   safe.toUpperCase(); // now it's fine
+// }
+
+// // void and never
+// function logMessage(msg: string): void {
+//   console.log(msg); // returns nothing
+// }
+
+// function crash(error: string): never {
+//   throw new Error(error); // never returns
+// }
