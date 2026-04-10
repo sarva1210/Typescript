@@ -1,0 +1,93 @@
+# Node modules
+
+node_modules/
+
+# Build outputs
+
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Logs
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+
+.env
+.env.*
+!.env.example
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDEs & editors
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript cache
+
+*.tsbuildinfo
+
+# Coverage reports
+
+coverage/
+
+# Dependency directories
+
+jspm_packages/
+
+# Optional npm cache
+
+.npm
+
+# Optional eslint cache
+
+.eslintcache
+
+# Optional stylelint cache
+
+.stylelintcache
+
+# Parcel / Vite cache
+
+.cache/
+.parcel-cache/
+.vite/
+
+# Next.js / Nuxt / other frameworks
+
+.next/
+.nuxt/
+
+# Temporary files
+
+tmp/
+temp/
+
+# Debug files
+
+*.pid
+*.seed
+*.pid.lock
+
+# Mac system files
+
+.AppleDouble
+.LSOverride
+
+# Windows system files
+
+ehthumbs.db
+Desktop.ini
