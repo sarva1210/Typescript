@@ -1,5 +1,6 @@
 let a: unknown
 
-a = 'hello'
+a = 'hi'
+
 if ((typeof a) === "string")
     console.log(a.toUpperCase())
